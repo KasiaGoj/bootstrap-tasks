@@ -1,0 +1,9 @@
+h1, p {
+    text-align: center;
+    color: grey;
+}
+
+hr {
+    color: grey;
+    width: 300px;
+}
