@@ -1,9 +1,45 @@
-h1, p {
+* {
+    font-family: 'Raleway', sans-serif;
     text-align: center;
-    color: grey;
+    color: #222222;
 }
 
 hr {
-    color: grey;
-    width: 300px;
+    color: #e4e4e4;
+    width: 30%;
+}
+
+.main {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.item {
+    margin: 15px 0px;
+}
+
+.circle {
+    background: #f5f5f5;
+    opacity: 0.7;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 60px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+i {
+    font-size: 60px;
+    color: #e78c0c;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
