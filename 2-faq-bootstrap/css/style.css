@@ -1,0 +1,22 @@
+* {
+    text-align: center;
+    font-weight: 100;
+    color: #838181;
+}
+
+hr {
+    width: 30%;
+}
+
+.btn:focus {
+    box-shadow: 0 0 black;
+}
+
+.btn-item {
+    color: rgb(230, 166, 49);
+    text-decoration: underline;
+}
+
+.btn-item:hover {
+    color: gray;
+}
